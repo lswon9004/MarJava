@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="MarJava">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../eclipse/jee-2024-03/eclipse/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="17"/>
+    <property name="source" value="17"/>
+    <path id="MarJava.classpath">
+        <pathelement location="bin"/>
+    </path>
+    <path id="run.AbtractTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.AccountTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Animal2Test.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArgumentMethodReferencesExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayAddressEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayCopyEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayEx4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayEx5.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayListEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ArrayListStreamTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.AsListEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.AutoBoxing.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BankMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BeepPrintExample1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BinarySearchProblem.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BlockTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BmiTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BookTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BreakContinue.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BreakEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.BufferEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ByteToStringEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CalendarExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CallStackEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Car2Test.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CardMain (1).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CardMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CarTest (1).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CarTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CarTest2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CatMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Ccc.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ChildMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Class.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ClassMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ClickHandlerEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Company.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ConstructorReferencesExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ConversionEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ConversionEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ConversionEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ConversionEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CustomerMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.CylinderTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DaemonExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DataStreamEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DateExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DateTimeCompareExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DateTimeOperationExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DecimalFormatExzmple.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DivisionEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.DynamicBinding.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.EmptyArrayEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.EqualsEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.EqualsEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Ex1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exam1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exam19.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exam2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example1 (1).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example1 (2).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example2 (1).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example3 (1).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example4 (1).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Example4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ExceptionEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ExceptionEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exercise.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exercise1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exercise2 (1).classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exercise2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exercise3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Exercise4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.FactorialTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.FileEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.FileEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.FileInputStreamEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.FileInputStreamEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.FileOutputStreamEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ForEachEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ForEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ForEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ForEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.GenericExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.GenericExample2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.GetClassExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.GetResourceExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.GoodsTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Gugudan.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Hanoi.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.HashCodeEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.HelloEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.IdFormatExceptionEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.IfEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.IfEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.IfEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.IfEx4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ImportTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InitArray.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InitTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InputEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InputExDouble.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InputExStr.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InputStreamReaderEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InstanceofEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.IntArrayTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InterfaceEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InterfaceEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InterfaceEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.InterfaceEx4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.IteratorEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.JoinEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LambdaEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LambdaEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LambdaEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LambdaEx4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LambdaEx5.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LibraryTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LinkedListEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LinkedListEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.LosAngelesExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MainArgsEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MainTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MapEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MapEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MapEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MemberTreeSet.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MethodExMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MethodReferencesExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MultiArrayEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MultiArrayEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MultiClient.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MultiForEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MultiForEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MultiForex3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.MultiForEx4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.NameEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.NetworkEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.NullPointerEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.NumMasic.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ObArrayEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperationEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperationEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperationEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperationEx6.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperatorEx4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperatorEx5.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperatorEx6.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperatorEx7.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperatorEx8.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.OperatorEx9.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PalindromeEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PandaMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ParseDate.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PatternMatch.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PersonMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PhoneMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PointTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PrimitiveParameter.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PrintAnnotationExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PrintStreamEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PrintTimeZoneID.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ProducerCustomerEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ProductMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PropertiesEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.PropertiesEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.QuizMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.RecordEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ReduceTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ReferenceParamiter.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ReflectionExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ReturnTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.RunnableExecuteExample.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SawonMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.School.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Score.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SearchActor.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SerializableTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SetEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SetEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SetList.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SingleRunnableEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SingleThreadEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SingletonMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Song.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SongMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StackEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StackQueue.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Store.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StreamLotto.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringBuilderEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringBuilderEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringMethodEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringMethodEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringMethodEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringTokenEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StringValueCompare.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.StudentTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SwitchEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SychronizedMethodEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SynchronizedEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SystemEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SystemEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SystemInTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.SystrmEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.TcpIpClient.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.Test.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ThrowEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.ThrowsEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.TimeTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.TravelTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.TreeLotto.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.TreeSetEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.TvMain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.UdpClient.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.VarArgsMrthod.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.VariableExmain.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.VarTypeEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.VarTypeEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.VolTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WaitNotifyEx.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WeekCheck.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WeekTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WhaleTest.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WhileEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WhileEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WhileEx3.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WhileEx4.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WrapperEx1.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <path id="run.WrapperEx2.classpath">
+        <path refid="MarJava.classpath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="MarJava.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="AbtractTest">
+        <java classname="day0326.modifiler.AbtractTest" failonerror="true" fork="yes">
+            <classpath refid="run.AbtractTest.classpath"/>
+        </java>
+    </target>
+    <target name="AccountTest">
+        <java classname="day0326.com.exercise.AccountTest" failonerror="true" fork="yes">
+            <classpath refid="run.AccountTest.classpath"/>
+        </java>
+    </target>
+    <target name="Animal2Test">
+        <java classname="day0326.exam.Animal2Test" failonerror="true" fork="yes">
+            <classpath refid="run.Animal2Test.classpath"/>
+        </java>
+    </target>
+    <target name="ArgumentMethodReferencesExample">
+        <java classname="day0408.lambda.ArgumentMethodReferencesExample" failonerror="true" fork="yes">
+            <classpath refid="run.ArgumentMethodReferencesExample.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayAddressEx">
+        <java classname="day0320.array.ArrayAddressEx" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayAddressEx.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayCopyEx">
+        <java classname="day0320.array.ArrayCopyEx" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayCopyEx.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayEx1">
+        <java classname="day0319.array.ArrayEx1" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayEx1.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayEx2">
+        <java classname="day0319.array.ArrayEx2" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayEx2.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayEx3">
+        <java classname="day0319.array.ArrayEx3" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayEx3.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayEx4">
+        <java classname="day0319.array.ArrayEx4" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayEx4.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayEx5">
+        <java classname="day0319.array.ArrayEx5" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayEx5.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayListEx1">
+        <java classname="day0403.collection.list.ArrayListEx1" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayListEx1.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayListStreamTest">
+        <java classname="day0408.collection.stream.ArrayListStreamTest" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayListStreamTest.classpath"/>
+        </java>
+    </target>
+    <target name="AsListEx">
+        <java classname="day0403.collection.list.AsListEx" failonerror="true" fork="yes">
+            <classpath refid="run.AsListEx.classpath"/>
+        </java>
+    </target>
+    <target name="AutoBoxing">
+        <java classname="day0402.langex.wrapper.AutoBoxing" failonerror="true" fork="yes">
+            <classpath refid="run.AutoBoxing.classpath"/>
+        </java>
+    </target>
+    <target name="BankMain">
+        <java classname="day0322.oob.init.BankMain" failonerror="true" fork="yes">
+            <classpath refid="run.BankMain.classpath"/>
+        </java>
+    </target>
+    <target name="BeepPrintExample1">
+        <java classname="day0405.thread.BeepPrintExample1" failonerror="true" fork="yes">
+            <classpath refid="run.BeepPrintExample1.classpath"/>
+        </java>
+    </target>
+    <target name="BinarySearchProblem">
+        <java classname="day0319.array.BinarySearchProblem" failonerror="true" fork="yes">
+            <classpath refid="run.BinarySearchProblem.classpath"/>
+        </java>
+    </target>
+    <target name="BlockTest">
+        <java classname="day0322.oob.init.BlockTest" failonerror="true" fork="yes">
+            <classpath refid="run.BlockTest.classpath"/>
+        </java>
+    </target>
+    <target name="BmiTest">
+        <java classname="day0327.exam.BmiTest" failonerror="true" fork="yes">
+            <classpath refid="run.BmiTest.classpath"/>
+        </java>
+    </target>
+    <target name="BookTest">
+        <java classname="day0326.com.book.BookTest" failonerror="true" fork="yes">
+            <classpath refid="run.BookTest.classpath"/>
+        </java>
+    </target>
+    <target name="BreakContinue">
+        <java classname="day0318.whileex.BreakContinue" failonerror="true" fork="yes">
+            <classpath refid="run.BreakContinue.classpath"/>
+        </java>
+    </target>
+    <target name="BreakEx1">
+        <java classname="day0318.whileex.BreakEx1" failonerror="true" fork="yes">
+            <classpath refid="run.BreakEx1.classpath"/>
+        </java>
+    </target>
+    <target name="BufferEx">
+        <java classname="day0408.io.BufferEx" failonerror="true" fork="yes">
+            <classpath refid="run.BufferEx.classpath"/>
+        </java>
+    </target>
+    <target name="ByteToStringEx">
+        <java classname="day0402.langex.ByteToStringEx" failonerror="true" fork="yes">
+            <classpath refid="run.ByteToStringEx.classpath"/>
+        </java>
+    </target>
+    <target name="CalendarExample">
+        <java classname="day0402.datetime.CalendarExample" failonerror="true" fork="yes">
+            <classpath refid="run.CalendarExample.classpath"/>
+        </java>
+    </target>
+    <target name="CallStackEx">
+        <java classname="day0321.oop.method.CallStackEx" failonerror="true" fork="yes">
+            <classpath refid="run.CallStackEx.classpath"/>
+        </java>
+    </target>
+    <target name="Car2Test">
+        <java classname="day0322.oob.constructor.Car2Test" failonerror="true" fork="yes">
+            <classpath refid="run.Car2Test.classpath"/>
+        </java>
+    </target>
+    <target name="CardMain (1)">
+        <java classname="day0326.exam.CardMain" failonerror="true" fork="yes">
+            <classpath refid="run.CardMain (1).classpath"/>
+        </java>
+    </target>
+    <target name="CardMain">
+        <java classname="day0321.oop.variable.CardMain" failonerror="true" fork="yes">
+            <classpath refid="run.CardMain.classpath"/>
+        </java>
+    </target>
+    <target name="CarTest (1)">
+        <java classname="day0327.oop.poly.CarTest" failonerror="true" fork="yes">
+            <classpath refid="run.CarTest (1).classpath"/>
+        </java>
+    </target>
+    <target name="CarTest">
+        <java classname="day0322.oob.constructor.CarTest" failonerror="true" fork="yes">
+            <classpath refid="run.CarTest.classpath"/>
+        </java>
+    </target>
+    <target name="CarTest2">
+        <java classname="day0327.oop.poly.CarTest2" failonerror="true" fork="yes">
+            <classpath refid="run.CarTest2.classpath"/>
+        </java>
+    </target>
+    <target name="CatMain">
+        <java classname="day0325.oob.inheritance.CatMain" failonerror="true" fork="yes">
+            <classpath refid="run.CatMain.classpath"/>
+        </java>
+    </target>
+    <target name="Ccc">
+        <java classname="day0403.reflection.images.Ccc" failonerror="true" fork="yes">
+            <classpath refid="run.Ccc.classpath"/>
+        </java>
+    </target>
+    <target name="ChildMain">
+        <java classname="day0325.oob.inheritance.ChildMain" failonerror="true" fork="yes">
+            <classpath refid="run.ChildMain.classpath"/>
+        </java>
+    </target>
+    <target name="Class">
+        <java classname="day0325.oob.inheritance.Class" failonerror="true" fork="yes">
+            <classpath refid="run.Class.classpath"/>
+        </java>
+    </target>
+    <target name="ClassMain">
+        <java classname="day0326.exam.ClassMain" failonerror="true" fork="yes">
+            <classpath refid="run.ClassMain.classpath"/>
+        </java>
+    </target>
+    <target name="ClickHandlerEx">
+        <java classname="day0401.inner.ClickHandlerEx" failonerror="true" fork="yes">
+            <classpath refid="run.ClickHandlerEx.classpath"/>
+        </java>
+    </target>
+    <target name="Company">
+        <java classname="com.company.Company" failonerror="true" fork="yes">
+            <classpath refid="run.Company.classpath"/>
+        </java>
+    </target>
+    <target name="ConstructorReferencesExample">
+        <java classname="day0408.lambda.ConstructorReferencesExample" failonerror="true" fork="yes">
+            <classpath refid="run.ConstructorReferencesExample.classpath"/>
+        </java>
+    </target>
+    <target name="ConversionEx">
+        <java classname="day0313.variable.ConversionEx" failonerror="true" fork="yes">
+            <classpath refid="run.ConversionEx.classpath"/>
+        </java>
+    </target>
+    <target name="ConversionEx1">
+        <java classname="day0314.conversion.ConversionEx1" failonerror="true" fork="yes">
+            <classpath refid="run.ConversionEx1.classpath"/>
+        </java>
+    </target>
+    <target name="ConversionEx2">
+        <java classname="day0314.conversion.ConversionEx2" failonerror="true" fork="yes">
+            <classpath refid="run.ConversionEx2.classpath"/>
+        </java>
+    </target>
+    <target name="ConversionEx3">
+        <java classname="day0314.conversion.ConversionEx3" failonerror="true" fork="yes">
+            <classpath refid="run.ConversionEx3.classpath"/>
+        </java>
+    </target>
+    <target name="CustomerMain">
+        <java classname="com.test.CustomerMain" failonerror="true" fork="yes">
+            <classpath refid="run.CustomerMain.classpath"/>
+        </java>
+    </target>
+    <target name="CylinderTest">
+        <java classname="day0328.oop.exam.CylinderTest" failonerror="true" fork="yes">
+            <classpath refid="run.CylinderTest.classpath"/>
+        </java>
+    </target>
+    <target name="DaemonExample">
+        <java classname="day0405.thread.DaemonExample" failonerror="true" fork="yes">
+            <classpath refid="run.DaemonExample.classpath"/>
+        </java>
+    </target>
+    <target name="DataStreamEx">
+        <java classname="day0409.io.DataStreamEx" failonerror="true" fork="yes">
+            <classpath refid="run.DataStreamEx.classpath"/>
+        </java>
+    </target>
+    <target name="DateExample">
+        <java classname="day0402.datetime.DateExample" failonerror="true" fork="yes">
+            <classpath refid="run.DateExample.classpath"/>
+        </java>
+    </target>
+    <target name="DateTimeCompareExample">
+        <java classname="day0402.datetime.DateTimeCompareExample" failonerror="true" fork="yes">
+            <classpath refid="run.DateTimeCompareExample.classpath"/>
+        </java>
+    </target>
+    <target name="DateTimeOperationExample">
+        <java classname="day0402.datetime.DateTimeOperationExample" failonerror="true" fork="yes">
+            <classpath refid="run.DateTimeOperationExample.classpath"/>
+        </java>
+    </target>
+    <target name="DecimalFormatExzmple">
+        <java classname="day0402.datetime.DecimalFormatExzmple" failonerror="true" fork="yes">
+            <classpath refid="run.DecimalFormatExzmple.classpath"/>
+        </java>
+    </target>
+    <target name="DivisionEx">
+        <java classname="day0314.operator.DivisionEx" failonerror="true" fork="yes">
+            <classpath refid="run.DivisionEx.classpath"/>
+        </java>
+    </target>
+    <target name="DynamicBinding">
+        <java classname="day0327.oop.poly.DynamicBinding" failonerror="true" fork="yes">
+            <classpath refid="run.DynamicBinding.classpath"/>
+        </java>
+    </target>
+    <target name="EmptyArrayEx">
+        <java classname="day0319.array.EmptyArrayEx" failonerror="true" fork="yes">
+            <classpath refid="run.EmptyArrayEx.classpath"/>
+        </java>
+    </target>
+    <target name="EqualsEx1">
+        <java classname="day0401.langex.EqualsEx1" failonerror="true" fork="yes">
+            <classpath refid="run.EqualsEx1.classpath"/>
+        </java>
+    </target>
+    <target name="EqualsEx2">
+        <java classname="day0401.langex.EqualsEx2" failonerror="true" fork="yes">
+            <classpath refid="run.EqualsEx2.classpath"/>
+        </java>
+    </target>
+    <target name="Ex1">
+        <java classname="day0312.first.Ex1" failonerror="true" fork="yes">
+            <classpath refid="run.Ex1.classpath"/>
+        </java>
+    </target>
+    <target name="Exam1">
+        <java classname="day0313.exam.Exam1" failonerror="true" fork="yes">
+            <classpath refid="run.Exam1.classpath"/>
+        </java>
+    </target>
+    <target name="Exam19">
+        <java classname="day0401.argsmethod.Exam19" failonerror="true" fork="yes">
+            <classpath refid="run.Exam19.classpath"/>
+        </java>
+    </target>
+    <target name="Exam2">
+        <java classname="day0313.print.Exam2" failonerror="true" fork="yes">
+            <classpath refid="run.Exam2.classpath"/>
+        </java>
+    </target>
+    <target name="Example1 (1)">
+        <java classname="day0315.exam.Example1" failonerror="true" fork="yes">
+            <classpath refid="run.Example1 (1).classpath"/>
+        </java>
+    </target>
+    <target name="Example1 (2)">
+        <java classname="day0409.exam.Example1" failonerror="true" fork="yes">
+            <classpath refid="run.Example1 (2).classpath"/>
+        </java>
+    </target>
+    <target name="Example1">
+        <java classname="day0314.exam.Example1" failonerror="true" fork="yes">
+            <classpath refid="run.Example1.classpath"/>
+        </java>
+    </target>
+    <target name="Example2 (1)">
+        <java classname="day0315.exam.Example2" failonerror="true" fork="yes">
+            <classpath refid="run.Example2 (1).classpath"/>
+        </java>
+    </target>
+    <target name="Example2">
+        <java classname="day0314.exam.Example2" failonerror="true" fork="yes">
+            <classpath refid="run.Example2.classpath"/>
+        </java>
+    </target>
+    <target name="Example3 (1)">
+        <java classname="day0315.exam.Example3" failonerror="true" fork="yes">
+            <classpath refid="run.Example3 (1).classpath"/>
+        </java>
+    </target>
+    <target name="Example3">
+        <java classname="day0314.exam.Example3" failonerror="true" fork="yes">
+            <classpath refid="run.Example3.classpath"/>
+        </java>
+    </target>
+    <target name="Example4 (1)">
+        <java classname="day0315.exam.Example4" failonerror="true" fork="yes">
+            <classpath refid="run.Example4 (1).classpath"/>
+        </java>
+    </target>
+    <target name="Example4">
+        <java classname="day0314.exam.Example4" failonerror="true" fork="yes">
+            <classpath refid="run.Example4.classpath"/>
+        </java>
+    </target>
+    <target name="ExceptionEx1">
+        <java classname="day0329.exception.ExceptionEx1" failonerror="true" fork="yes">
+            <classpath refid="run.ExceptionEx1.classpath"/>
+        </java>
+    </target>
+    <target name="ExceptionEx2">
+        <java classname="day0329.exception.ExceptionEx2" failonerror="true" fork="yes">
+            <arg line="0"/>
+            <classpath refid="run.ExceptionEx2.classpath"/>
+        </java>
+    </target>
+    <target name="Exercise">
+        <java classname="day0402.exam.Exercise" failonerror="true" fork="yes">
+            <classpath refid="run.Exercise.classpath"/>
+        </java>
+    </target>
+    <target name="Exercise1">
+        <java classname="day0318.exam.Exercise1" failonerror="true" fork="yes">
+            <classpath refid="run.Exercise1.classpath"/>
+        </java>
+    </target>
+    <target name="Exercise2 (1)">
+        <java classname="day0402.exam.Exercise2" failonerror="true" fork="yes">
+            <classpath refid="run.Exercise2 (1).classpath"/>
+        </java>
+    </target>
+    <target name="Exercise2">
+        <java classname="day0318.exam.Exercise2" failonerror="true" fork="yes">
+            <classpath refid="run.Exercise2.classpath"/>
+        </java>
+    </target>
+    <target name="Exercise3">
+        <java classname="day0318.exam.Exercise3" failonerror="true" fork="yes">
+            <classpath refid="run.Exercise3.classpath"/>
+        </java>
+    </target>
+    <target name="Exercise4">
+        <java classname="day0318.exam.Exercise4" failonerror="true" fork="yes">
+            <classpath refid="run.Exercise4.classpath"/>
+        </java>
+    </target>
+    <target name="FactorialTest">
+        <java classname="day0321.oop.method.FactorialTest" failonerror="true" fork="yes">
+            <classpath refid="run.FactorialTest.classpath"/>
+        </java>
+    </target>
+    <target name="FileEx1">
+        <java classname="day0409.io.FileEx1" failonerror="true" fork="yes">
+            <classpath refid="run.FileEx1.classpath"/>
+        </java>
+    </target>
+    <target name="FileEx2">
+        <java classname="day0409.io.FileEx2" failonerror="true" fork="yes">
+            <classpath refid="run.FileEx2.classpath"/>
+        </java>
+    </target>
+    <target name="FileInputStreamEx1">
+        <java classname="day0409.io.FileInputStreamEx1" failonerror="true" fork="yes">
+            <classpath refid="run.FileInputStreamEx1.classpath"/>
+        </java>
+    </target>
+    <target name="FileInputStreamEx2">
+        <java classname="day0409.io.FileInputStreamEx2" failonerror="true" fork="yes">
+            <classpath refid="run.FileInputStreamEx2.classpath"/>
+        </java>
+    </target>
+    <target name="FileOutputStreamEx">
+        <java classname="day0408.io.FileOutputStreamEx" failonerror="true" fork="yes">
+            <classpath refid="run.FileOutputStreamEx.classpath"/>
+        </java>
+    </target>
+    <target name="ForEachEx1">
+        <java classname="day0319.array.ForEachEx1" failonerror="true" fork="yes">
+            <classpath refid="run.ForEachEx1.classpath"/>
+        </java>
+    </target>
+    <target name="ForEx1">
+        <java classname="day0315.forex.ForEx1" failonerror="true" fork="yes">
+            <classpath refid="run.ForEx1.classpath"/>
+        </java>
+    </target>
+    <target name="ForEx2">
+        <java classname="day0315.forex.ForEx2" failonerror="true" fork="yes">
+            <classpath refid="run.ForEx2.classpath"/>
+        </java>
+    </target>
+    <target name="ForEx3">
+        <java classname="day0318.forex.ForEx3" failonerror="true" fork="yes">
+            <classpath refid="run.ForEx3.classpath"/>
+        </java>
+    </target>
+    <target name="GenericExample">
+        <java classname="day0403.generic.GenericExample" failonerror="true" fork="yes">
+            <classpath refid="run.GenericExample.classpath"/>
+        </java>
+    </target>
+    <target name="GenericExample2">
+        <java classname="day0403.generic.GenericExample2" failonerror="true" fork="yes">
+            <classpath refid="run.GenericExample2.classpath"/>
+        </java>
+    </target>
+    <target name="GetClassExample">
+        <java classname="day0403.reflection.GetClassExample" failonerror="true" fork="yes">
+            <classpath refid="run.GetClassExample.classpath"/>
+        </java>
+    </target>
+    <target name="GetResourceExample">
+        <java classname="day0403.reflection.GetResourceExample" failonerror="true" fork="yes">
+            <classpath refid="run.GetResourceExample.classpath"/>
+        </java>
+    </target>
+    <target name="GoodsTest">
+        <java classname="day0326.com.exercise2.GoodsTest" failonerror="true" fork="yes">
+            <classpath refid="run.GoodsTest.classpath"/>
+        </java>
+    </target>
+    <target name="Gugudan">
+        <java classname="day0318.forex.Gugudan" failonerror="true" fork="yes">
+            <classpath refid="run.Gugudan.classpath"/>
+        </java>
+    </target>
+    <target name="Hanoi">
+        <java classname="hanoi.top.Hanoi" failonerror="true" fork="yes">
+            <classpath refid="run.Hanoi.classpath"/>
+        </java>
+    </target>
+    <target name="HashCodeEx">
+        <java classname="day0402.langex.HashCodeEx" failonerror="true" fork="yes">
+            <classpath refid="run.HashCodeEx.classpath"/>
+        </java>
+    </target>
+    <target name="HelloEx">
+        <java classname="day0401.exam.HelloEx" failonerror="true" fork="yes">
+            <classpath refid="run.HelloEx.classpath"/>
+        </java>
+    </target>
+    <target name="IdFormatExceptionEx">
+        <java classname="day0329.exception.IdFormatExceptionEx" failonerror="true" fork="yes">
+            <classpath refid="run.IdFormatExceptionEx.classpath"/>
+        </java>
+    </target>
+    <target name="IfEx1">
+        <java classname="day0315.ifex.IfEx1" failonerror="true" fork="yes">
+            <classpath refid="run.IfEx1.classpath"/>
+        </java>
+    </target>
+    <target name="IfEx2">
+        <java classname="day0315.ifex.IfEx2" failonerror="true" fork="yes">
+            <classpath refid="run.IfEx2.classpath"/>
+        </java>
+    </target>
+    <target name="IfEx3">
+        <java classname="day0315.ifex.IfEx3" failonerror="true" fork="yes">
+            <classpath refid="run.IfEx3.classpath"/>
+        </java>
+    </target>
+    <target name="IfEx4">
+        <java classname="day0315.ifex.IfEx4" failonerror="true" fork="yes">
+            <classpath refid="run.IfEx4.classpath"/>
+        </java>
+    </target>
+    <target name="ImportTest">
+        <java classname="day0325.oob.inheritance.ImportTest" failonerror="true" fork="yes">
+            <classpath refid="run.ImportTest.classpath"/>
+        </java>
+    </target>
+    <target name="InitArray">
+        <java classname="day0322.oob.init.InitArray" failonerror="true" fork="yes">
+            <classpath refid="run.InitArray.classpath"/>
+        </java>
+    </target>
+    <target name="InitTest">
+        <java classname="day0322.oob.init.InitTest" failonerror="true" fork="yes">
+            <classpath refid="run.InitTest.classpath"/>
+        </java>
+    </target>
+    <target name="InputEx">
+        <java classname="day0314.input.InputEx" failonerror="true" fork="yes">
+            <classpath refid="run.InputEx.classpath"/>
+        </java>
+    </target>
+    <target name="InputExDouble">
+        <java classname="day0314.input.InputExDouble" failonerror="true" fork="yes">
+            <classpath refid="run.InputExDouble.classpath"/>
+        </java>
+    </target>
+    <target name="InputExStr">
+        <java classname="day0314.input.InputExStr" failonerror="true" fork="yes">
+            <classpath refid="run.InputExStr.classpath"/>
+        </java>
+    </target>
+    <target name="InputStreamReaderEx">
+        <java classname="day0409.io.InputStreamReaderEx" failonerror="true" fork="yes">
+            <classpath refid="run.InputStreamReaderEx.classpath"/>
+        </java>
+    </target>
+    <target name="InstanceofEx">
+        <java classname="day0327.oop.poly.InstanceofEx" failonerror="true" fork="yes">
+            <classpath refid="run.InstanceofEx.classpath"/>
+        </java>
+    </target>
+    <target name="IntArrayTest">
+        <java classname="day0408.collection.stream.IntArrayTest" failonerror="true" fork="yes">
+            <classpath refid="run.IntArrayTest.classpath"/>
+        </java>
+    </target>
+    <target name="InterfaceEx1">
+        <java classname="day0328.oop.interfaceex.InterfaceEx1" failonerror="true" fork="yes">
+            <classpath refid="run.InterfaceEx1.classpath"/>
+        </java>
+    </target>
+    <target name="InterfaceEx2">
+        <java classname="day0328.oop.interfaceex.InterfaceEx2" failonerror="true" fork="yes">
+            <classpath refid="run.InterfaceEx2.classpath"/>
+        </java>
+    </target>
+    <target name="InterfaceEx3">
+        <java classname="day0328.oop.interfaceex.InterfaceEx3" failonerror="true" fork="yes">
+            <classpath refid="run.InterfaceEx3.classpath"/>
+        </java>
+    </target>
+    <target name="InterfaceEx4">
+        <java classname="day0328.oop.interfaceex.InterfaceEx4" failonerror="true" fork="yes">
+            <classpath refid="run.InterfaceEx4.classpath"/>
+        </java>
+    </target>
+    <target name="IteratorEx">
+        <java classname="day0404.collection.set.IteratorEx" failonerror="true" fork="yes">
+            <classpath refid="run.IteratorEx.classpath"/>
+        </java>
+    </target>
+    <target name="JoinEx">
+        <java classname="day0405.thread.JoinEx" failonerror="true" fork="yes">
+            <classpath refid="run.JoinEx.classpath"/>
+        </java>
+    </target>
+    <target name="LambdaEx1">
+        <java classname="day0408.lambda.LambdaEx1" failonerror="true" fork="yes">
+            <classpath refid="run.LambdaEx1.classpath"/>
+        </java>
+    </target>
+    <target name="LambdaEx2">
+        <java classname="day0408.lambda.LambdaEx2" failonerror="true" fork="yes">
+            <classpath refid="run.LambdaEx2.classpath"/>
+        </java>
+    </target>
+    <target name="LambdaEx3">
+        <java classname="day0408.lambda.LambdaEx3" failonerror="true" fork="yes">
+            <classpath refid="run.LambdaEx3.classpath"/>
+        </java>
+    </target>
+    <target name="LambdaEx4">
+        <java classname="day0408.lambda.LambdaEx4" failonerror="true" fork="yes">
+            <classpath refid="run.LambdaEx4.classpath"/>
+        </java>
+    </target>
+    <target name="LambdaEx5">
+        <java classname="day0408.lambda.LambdaEx5" failonerror="true" fork="yes">
+            <classpath refid="run.LambdaEx5.classpath"/>
+        </java>
+    </target>
+    <target name="LibraryTest">
+        <java classname="day0408.collection.stream.LibraryTest" failonerror="true" fork="yes">
+            <classpath refid="run.LibraryTest.classpath"/>
+        </java>
+    </target>
+    <target name="LinkedListEx">
+        <java classname="day0403.collection.list.LinkedListEx" failonerror="true" fork="yes">
+            <classpath refid="run.LinkedListEx.classpath"/>
+        </java>
+    </target>
+    <target name="LinkedListEx2">
+        <java classname="day0403.collection.list.LinkedListEx2" failonerror="true" fork="yes">
+            <classpath refid="run.LinkedListEx2.classpath"/>
+        </java>
+    </target>
+    <target name="LosAngelesExample">
+        <java classname="day0402.datetime.LosAngelesExample" failonerror="true" fork="yes">
+            <classpath refid="run.LosAngelesExample.classpath"/>
+        </java>
+    </target>
+    <target name="MainArgsEx">
+        <java classname="day0320.array.MainArgsEx" failonerror="true" fork="yes">
+            <arg line="100 b c"/>
+            <classpath refid="run.MainArgsEx.classpath"/>
+        </java>
+    </target>
+    <target name="MainTest">
+        <java classname="day0321.oop.method.MainTest" failonerror="true" fork="yes">
+            <classpath refid="run.MainTest.classpath"/>
+        </java>
+    </target>
+    <target name="MapEx1">
+        <java classname="day0404.collection.map.MapEx1" failonerror="true" fork="yes">
+            <classpath refid="run.MapEx1.classpath"/>
+        </java>
+    </target>
+    <target name="MapEx2">
+        <java classname="day0404.collection.map.MapEx2" failonerror="true" fork="yes">
+            <classpath refid="run.MapEx2.classpath"/>
+        </java>
+    </target>
+    <target name="MapEx3">
+        <java classname="day0404.collection.map.MapEx3" failonerror="true" fork="yes">
+            <classpath refid="run.MapEx3.classpath"/>
+        </java>
+    </target>
+    <target name="MemberTreeSet">
+        <java classname="day0404.collection.set.MemberTreeSet" failonerror="true" fork="yes">
+            <classpath refid="run.MemberTreeSet.classpath"/>
+        </java>
+    </target>
+    <target name="MethodExMain">
+        <java classname="day0321.oop.method.MethodExMain" failonerror="true" fork="yes">
+            <classpath refid="run.MethodExMain.classpath"/>
+        </java>
+    </target>
+    <target name="MethodReferencesExample">
+        <java classname="day0408.lambda.MethodReferencesExample" failonerror="true" fork="yes">
+            <classpath refid="run.MethodReferencesExample.classpath"/>
+        </java>
+    </target>
+    <target name="MultiArrayEx1">
+        <java classname="day0320.array.MultiArrayEx1" failonerror="true" fork="yes">
+            <classpath refid="run.MultiArrayEx1.classpath"/>
+        </java>
+    </target>
+    <target name="MultiArrayEx2">
+        <java classname="day0320.array.MultiArrayEx2" failonerror="true" fork="yes">
+            <classpath refid="run.MultiArrayEx2.classpath"/>
+        </java>
+    </target>
+    <target name="MultiClient">
+        <java classname="day0411.net.MultiClient" failonerror="true" fork="yes">
+            <arg line="192.168.0.2 lsww"/>
+            <classpath refid="run.MultiClient.classpath"/>
+        </java>
+    </target>
+    <target name="MultiForEx1">
+        <java classname="day0318.forex.MultiForEx1" failonerror="true" fork="yes">
+            <classpath refid="run.MultiForEx1.classpath"/>
+        </java>
+    </target>
+    <target name="MultiForEx2">
+        <java classname="day0318.forex.MultiForEx2" failonerror="true" fork="yes">
+            <classpath refid="run.MultiForEx2.classpath"/>
+        </java>
+    </target>
+    <target name="MultiForex3">
+        <java classname="day0318.forex.MultiForex3" failonerror="true" fork="yes">
+            <classpath refid="run.MultiForex3.classpath"/>
+        </java>
+    </target>
+    <target name="MultiForEx4">
+        <java classname="day0318.forex.MultiForEx4" failonerror="true" fork="yes">
+            <classpath refid="run.MultiForEx4.classpath"/>
+        </java>
+    </target>
+    <target name="NameEx">
+        <java classname="day0313.variable.NameEx" failonerror="true" fork="yes">
+            <classpath refid="run.NameEx.classpath"/>
+        </java>
+    </target>
+    <target name="NetworkEx1">
+        <java classname="day0409.net.NetworkEx1" failonerror="true" fork="yes">
+            <classpath refid="run.NetworkEx1.classpath"/>
+        </java>
+    </target>
+    <target name="NullPointerEx">
+        <java classname="day0319.reference.NullPointerEx" failonerror="true" fork="yes">
+            <classpath refid="run.NullPointerEx.classpath"/>
+        </java>
+    </target>
+    <target name="NumMasic">
+        <java classname="day0318.whileex.NumMasic" failonerror="true" fork="yes">
+            <classpath refid="run.NumMasic.classpath"/>
+        </java>
+    </target>
+    <target name="ObArrayEx1">
+        <java classname="day0320.array.ObArrayEx1" failonerror="true" fork="yes">
+            <classpath refid="run.ObArrayEx1.classpath"/>
+        </java>
+    </target>
+    <target name="OperationEx1">
+        <java classname="day0314.operator.OperationEx1" failonerror="true" fork="yes">
+            <classpath refid="run.OperationEx1.classpath"/>
+        </java>
+    </target>
+    <target name="OperationEx2">
+        <java classname="day0314.operator.OperationEx2" failonerror="true" fork="yes">
+            <classpath refid="run.OperationEx2.classpath"/>
+        </java>
+    </target>
+    <target name="OperationEx3">
+        <java classname="day0314.operator.OperationEx3" failonerror="true" fork="yes">
+            <classpath refid="run.OperationEx3.classpath"/>
+        </java>
+    </target>
+    <target name="OperationEx6">
+        <java classname="day0314.operator.OperationEx6" failonerror="true" fork="yes">
+            <classpath refid="run.OperationEx6.classpath"/>
+        </java>
+    </target>
+    <target name="OperatorEx4">
+        <java classname="day0314.operator.OperatorEx4" failonerror="true" fork="yes">
+            <classpath refid="run.OperatorEx4.classpath"/>
+        </java>
+    </target>
+    <target name="OperatorEx5">
+        <java classname="day0314.operator.OperatorEx5" failonerror="true" fork="yes">
+            <classpath refid="run.OperatorEx5.classpath"/>
+        </java>
+    </target>
+    <target name="OperatorEx6">
+        <java classname="day0315.opertor.OperatorEx6" failonerror="true" fork="yes">
+            <classpath refid="run.OperatorEx6.classpath"/>
+        </java>
+    </target>
+    <target name="OperatorEx7">
+        <java classname="day0315.opertor.OperatorEx7" failonerror="true" fork="yes">
+            <classpath refid="run.OperatorEx7.classpath"/>
+        </java>
+    </target>
+    <target name="OperatorEx8">
+        <java classname="day0315.opertor.OperatorEx8" failonerror="true" fork="yes">
+            <classpath refid="run.OperatorEx8.classpath"/>
+        </java>
+    </target>
+    <target name="OperatorEx9">
+        <java classname="day0315.opertor.OperatorEx9" failonerror="true" fork="yes">
+            <classpath refid="run.OperatorEx9.classpath"/>
+        </java>
+    </target>
+    <target name="PalindromeEx">
+        <java classname="day0403.exam.PalindromeEx" failonerror="true" fork="yes">
+            <classpath refid="run.PalindromeEx.classpath"/>
+        </java>
+    </target>
+    <target name="PandaMain">
+        <java classname="day0325.oob.inheritance.PandaMain" failonerror="true" fork="yes">
+            <classpath refid="run.PandaMain.classpath"/>
+        </java>
+    </target>
+    <target name="ParseDate">
+        <java classname="day0402.datetime.ParseDate" failonerror="true" fork="yes">
+            <classpath refid="run.ParseDate.classpath"/>
+        </java>
+    </target>
+    <target name="PatternMatch">
+        <java classname="day0403.lang.regex.PatternMatch" failonerror="true" fork="yes">
+            <classpath refid="run.PatternMatch.classpath"/>
+        </java>
+    </target>
+    <target name="PersonMain">
+        <java classname="day0321.oop.PersonMain" failonerror="true" fork="yes">
+            <classpath refid="run.PersonMain.classpath"/>
+        </java>
+    </target>
+    <target name="PhoneMain">
+        <java classname="day0325.oob.inheritance.PhoneMain" failonerror="true" fork="yes">
+            <classpath refid="run.PhoneMain.classpath"/>
+        </java>
+    </target>
+    <target name="PointTest">
+        <java classname="day0325.oob.inheritance.PointTest" failonerror="true" fork="yes">
+            <classpath refid="run.PointTest.classpath"/>
+        </java>
+    </target>
+    <target name="PrimitiveParameter">
+        <java classname="day0321.oop.method.PrimitiveParameter" failonerror="true" fork="yes">
+            <classpath refid="run.PrimitiveParameter.classpath"/>
+        </java>
+    </target>
+    <target name="PrintAnnotationExample">
+        <java classname="day0403.annotation.PrintAnnotationExample" failonerror="true" fork="yes">
+            <classpath refid="run.PrintAnnotationExample.classpath"/>
+        </java>
+    </target>
+    <target name="PrintStreamEx">
+        <java classname="day0409.io.PrintStreamEx" failonerror="true" fork="yes">
+            <classpath refid="run.PrintStreamEx.classpath"/>
+        </java>
+    </target>
+    <target name="PrintTimeZoneID">
+        <java classname="day0402.datetime.PrintTimeZoneID" failonerror="true" fork="yes">
+            <classpath refid="run.PrintTimeZoneID.classpath"/>
+        </java>
+    </target>
+    <target name="ProducerCustomerEx">
+        <java classname="day0405.thread.ProducerCustomerEx" failonerror="true" fork="yes">
+            <classpath refid="run.ProducerCustomerEx.classpath"/>
+        </java>
+    </target>
+    <target name="ProductMain">
+        <java classname="day0322.oob.init.ProductMain" failonerror="true" fork="yes">
+            <classpath refid="run.ProductMain.classpath"/>
+        </java>
+    </target>
+    <target name="PropertiesEx1">
+        <java classname="day0404.collection.map.PropertiesEx1" failonerror="true" fork="yes">
+            <classpath refid="run.PropertiesEx1.classpath"/>
+        </java>
+    </target>
+    <target name="PropertiesEx2">
+        <java classname="day0404.collection.map.PropertiesEx2" failonerror="true" fork="yes">
+            <classpath refid="run.PropertiesEx2.classpath"/>
+        </java>
+    </target>
+    <target name="QuizMain">
+        <java classname="day0405.thread.QuizMain" failonerror="true" fork="yes">
+            <classpath refid="run.QuizMain.classpath"/>
+        </java>
+    </target>
+    <target name="RecordEx">
+        <java classname="day0402.langex.RecordEx" failonerror="true" fork="yes">
+            <classpath refid="run.RecordEx.classpath"/>
+        </java>
+    </target>
+    <target name="ReduceTest">
+        <java classname="day0408.collection.stream.ReduceTest" failonerror="true" fork="yes">
+            <classpath refid="run.ReduceTest.classpath"/>
+        </java>
+    </target>
+    <target name="ReferenceParamiter">
+        <java classname="day0321.oop.method.ReferenceParamiter" failonerror="true" fork="yes">
+            <classpath refid="run.ReferenceParamiter.classpath"/>
+        </java>
+    </target>
+    <target name="ReflectionExample">
+        <java classname="day0403.reflection.ReflectionExample" failonerror="true" fork="yes">
+            <classpath refid="run.ReflectionExample.classpath"/>
+        </java>
+    </target>
+    <target name="ReturnTest">
+        <java classname="day0321.oop.method.ReturnTest" failonerror="true" fork="yes">
+            <classpath refid="run.ReturnTest.classpath"/>
+        </java>
+    </target>
+    <target name="RunnableExecuteExample">
+        <java classname="day0405.thread.RunnableExecuteExample" failonerror="true" fork="yes">
+            <classpath refid="run.RunnableExecuteExample.classpath"/>
+        </java>
+    </target>
+    <target name="SawonMain">
+        <java classname="day0327.exam.SawonMain" failonerror="true" fork="yes">
+            <classpath refid="run.SawonMain.classpath"/>
+        </java>
+    </target>
+    <target name="School">
+        <java classname="day0326.com.mytest.School" failonerror="true" fork="yes">
+            <classpath refid="run.School.classpath"/>
+        </java>
+    </target>
+    <target name="Score">
+        <java classname="day0329.exception.Score" failonerror="true" fork="yes">
+            <classpath refid="run.Score.classpath"/>
+        </java>
+    </target>
+    <target name="SearchActor">
+        <java classname="day0404.exam.SearchActor" failonerror="true" fork="yes">
+            <classpath refid="run.SearchActor.classpath"/>
+        </java>
+    </target>
+    <target name="SerializableTest">
+        <java classname="day0409.io.SerializableTest" failonerror="true" fork="yes">
+            <classpath refid="run.SerializableTest.classpath"/>
+        </java>
+    </target>
+    <target name="SetEx1">
+        <java classname="day0403.collection.set.SetEx1" failonerror="true" fork="yes">
+            <classpath refid="run.SetEx1.classpath"/>
+        </java>
+    </target>
+    <target name="SetEx2">
+        <java classname="day0403.collection.set.SetEx2" failonerror="true" fork="yes">
+            <classpath refid="run.SetEx2.classpath"/>
+        </java>
+    </target>
+    <target name="SetList">
+        <java classname="day0404.collection.set.SetList" failonerror="true" fork="yes">
+            <classpath refid="run.SetList.classpath"/>
+        </java>
+    </target>
+    <target name="SingleRunnableEx">
+        <java classname="day0405.thread.SingleRunnableEx" failonerror="true" fork="yes">
+            <classpath refid="run.SingleRunnableEx.classpath"/>
+        </java>
+    </target>
+    <target name="SingleThreadEx1">
+        <java classname="day0405.thread.SingleThreadEx1" failonerror="true" fork="yes">
+            <classpath refid="run.SingleThreadEx1.classpath"/>
+        </java>
+    </target>
+    <target name="SingletonMain">
+        <java classname="day0327.oop.modifier.SingletonMain" failonerror="true" fork="yes">
+            <classpath refid="run.SingletonMain.classpath"/>
+        </java>
+    </target>
+    <target name="Song">
+        <java classname="day0327.exam.Song" failonerror="true" fork="yes">
+            <classpath refid="run.Song.classpath"/>
+        </java>
+    </target>
+    <target name="SongMain">
+        <java classname="day0327.exam.SongMain" failonerror="true" fork="yes">
+            <classpath refid="run.SongMain.classpath"/>
+        </java>
+    </target>
+    <target name="StackEx1">
+        <java classname="day0403.collection.list.StackEx1" failonerror="true" fork="yes">
+            <classpath refid="run.StackEx1.classpath"/>
+        </java>
+    </target>
+    <target name="StackQueue">
+        <java classname="day0403.collection.list.StackQueue" failonerror="true" fork="yes">
+            <classpath refid="run.StackQueue.classpath"/>
+        </java>
+    </target>
+    <target name="Store">
+        <java classname="day0327.oop.poly.Store" failonerror="true" fork="yes">
+            <classpath refid="run.Store.classpath"/>
+        </java>
+    </target>
+    <target name="StreamLotto">
+        <java classname="day0408.collection.stream.StreamLotto" failonerror="true" fork="yes">
+            <classpath refid="run.StreamLotto.classpath"/>
+        </java>
+    </target>
+    <target name="StringBuilderEx">
+        <java classname="day0402.langex.StringBuilderEx" failonerror="true" fork="yes">
+            <classpath refid="run.StringBuilderEx.classpath"/>
+        </java>
+    </target>
+    <target name="StringBuilderEx2">
+        <java classname="day0402.langex.StringBuilderEx2" failonerror="true" fork="yes">
+            <classpath refid="run.StringBuilderEx2.classpath"/>
+        </java>
+    </target>
+    <target name="StringEx">
+        <java classname="day0313.variable.StringEx" failonerror="true" fork="yes">
+            <classpath refid="run.StringEx.classpath"/>
+        </java>
+    </target>
+    <target name="StringEx1">
+        <java classname="day0319.reference.StringEx1" failonerror="true" fork="yes">
+            <classpath refid="run.StringEx1.classpath"/>
+        </java>
+    </target>
+    <target name="StringMethodEx">
+        <java classname="day0319.reference.StringMethodEx" failonerror="true" fork="yes">
+            <classpath refid="run.StringMethodEx.classpath"/>
+        </java>
+    </target>
+    <target name="StringMethodEx2">
+        <java classname="day0319.reference.StringMethodEx2" failonerror="true" fork="yes">
+            <classpath refid="run.StringMethodEx2.classpath"/>
+        </java>
+    </target>
+    <target name="StringMethodEx3">
+        <java classname="day0319.reference.StringMethodEx3" failonerror="true" fork="yes">
+            <classpath refid="run.StringMethodEx3.classpath"/>
+        </java>
+    </target>
+    <target name="StringTokenEx">
+        <java classname="day0402.langex.StringTokenEx" failonerror="true" fork="yes">
+            <classpath refid="run.StringTokenEx.classpath"/>
+        </java>
+    </target>
+    <target name="StringValueCompare">
+        <java classname="day0319.reference.StringValueCompare" failonerror="true" fork="yes">
+            <classpath refid="run.StringValueCompare.classpath"/>
+        </java>
+    </target>
+    <target name="StudentTest">
+        <java classname="day0408.collection.stream.StudentTest" failonerror="true" fork="yes">
+            <classpath refid="run.StudentTest.classpath"/>
+        </java>
+    </target>
+    <target name="SwitchEx1">
+        <java classname="day0315.switchex.SwitchEx1" failonerror="true" fork="yes">
+            <classpath refid="run.SwitchEx1.classpath"/>
+        </java>
+    </target>
+    <target name="SychronizedMethodEx">
+        <java classname="day0405.thread.SychronizedMethodEx" failonerror="true" fork="yes">
+            <classpath refid="run.SychronizedMethodEx.classpath"/>
+        </java>
+    </target>
+    <target name="SynchronizedEx">
+        <java classname="day0405.thread.SynchronizedEx" failonerror="true" fork="yes">
+            <classpath refid="run.SynchronizedEx.classpath"/>
+        </java>
+    </target>
+    <target name="SystemEx">
+        <java classname="day0402.langex.SystemEx" failonerror="true" fork="yes">
+            <classpath refid="run.SystemEx.classpath"/>
+        </java>
+    </target>
+    <target name="SystemEx2">
+        <java classname="day0402.langex.SystemEx2" failonerror="true" fork="yes">
+            <classpath refid="run.SystemEx2.classpath"/>
+        </java>
+    </target>
+    <target name="SystemInTest">
+        <java classname="day0409.io.SystemInTest" failonerror="true" fork="yes">
+            <classpath refid="run.SystemInTest.classpath"/>
+        </java>
+    </target>
+    <target name="SystrmEx3">
+        <java classname="day0402.langex.SystrmEx3" failonerror="true" fork="yes">
+            <classpath refid="run.SystrmEx3.classpath"/>
+        </java>
+    </target>
+    <target name="TcpIpClient">
+        <java classname="day0409.net.TcpIpClient" failonerror="true" fork="yes">
+            <classpath refid="run.TcpIpClient.classpath"/>
+        </java>
+    </target>
+    <target name="Test">
+        <java classname="day0405.thread.Test" failonerror="true" fork="yes">
+            <classpath refid="run.Test.classpath"/>
+        </java>
+    </target>
+    <target name="ThrowEx">
+        <java classname="day0329.exception.ThrowEx" failonerror="true" fork="yes">
+            <classpath refid="run.ThrowEx.classpath"/>
+        </java>
+    </target>
+    <target name="ThrowsEx">
+        <java classname="day0329.exception.ThrowsEx" failonerror="true" fork="yes">
+            <classpath refid="run.ThrowsEx.classpath"/>
+        </java>
+    </target>
+    <target name="TimeTest">
+        <java classname="day0326.exam.TimeTest" failonerror="true" fork="yes">
+            <classpath refid="run.TimeTest.classpath"/>
+        </java>
+    </target>
+    <target name="TravelTest">
+        <java classname="day0408.collection.stream.TravelTest" failonerror="true" fork="yes">
+            <classpath refid="run.TravelTest.classpath"/>
+        </java>
+    </target>
+    <target name="TreeLotto">
+        <java classname="day0404.collection.set.TreeLotto" failonerror="true" fork="yes">
+            <classpath refid="run.TreeLotto.classpath"/>
+        </java>
+    </target>
+    <target name="TreeSetEx1">
+        <java classname="day0403.collection.set.TreeSetEx1" failonerror="true" fork="yes">
+            <classpath refid="run.TreeSetEx1.classpath"/>
+        </java>
+    </target>
+    <target name="TvMain">
+        <java classname="day0320.oop.TvMain" failonerror="true" fork="yes">
+            <classpath refid="run.TvMain.classpath"/>
+        </java>
+    </target>
+    <target name="UdpClient">
+        <java classname="day0409.net.UdpClient" failonerror="true" fork="yes">
+            <classpath refid="run.UdpClient.classpath"/>
+        </java>
+    </target>
+    <target name="VarArgsMrthod">
+        <java classname="day0401.argsmethod.VarArgsMrthod" failonerror="true" fork="yes">
+            <classpath refid="run.VarArgsMrthod.classpath"/>
+        </java>
+    </target>
+    <target name="VariableExmain">
+        <java classname="day0320.oop.VariableExmain" failonerror="true" fork="yes">
+            <classpath refid="run.VariableExmain.classpath"/>
+        </java>
+    </target>
+    <target name="VarTypeEx2">
+        <java classname="day0313.variable.VarTypeEx2" failonerror="true" fork="yes">
+            <classpath refid="run.VarTypeEx2.classpath"/>
+        </java>
+    </target>
+    <target name="VarTypeEx3">
+        <java classname="day0313.variable.VarTypeEx3" failonerror="true" fork="yes">
+            <classpath refid="run.VarTypeEx3.classpath"/>
+        </java>
+    </target>
+    <target name="VolTest">
+        <java classname="com.volume.VolTest" failonerror="true" fork="yes">
+            <classpath refid="run.VolTest.classpath"/>
+        </java>
+    </target>
+    <target name="WaitNotifyEx">
+        <java classname="day0405.thread.WaitNotifyEx" failonerror="true" fork="yes">
+            <classpath refid="run.WaitNotifyEx.classpath"/>
+        </java>
+    </target>
+    <target name="WeekCheck">
+        <java classname="day0401.enumex.WeekCheck" failonerror="true" fork="yes">
+            <classpath refid="run.WeekCheck.classpath"/>
+        </java>
+    </target>
+    <target name="WeekTest">
+        <java classname="day0401.enumex.WeekTest" failonerror="true" fork="yes">
+            <classpath refid="run.WeekTest.classpath"/>
+        </java>
+    </target>
+    <target name="WhaleTest">
+        <java classname="day0328.oop.exam.WhaleTest" failonerror="true" fork="yes">
+            <classpath refid="run.WhaleTest.classpath"/>
+        </java>
+    </target>
+    <target name="WhileEx1">
+        <java classname="day0318.whileex.WhileEx1" failonerror="true" fork="yes">
+            <classpath refid="run.WhileEx1.classpath"/>
+        </java>
+    </target>
+    <target name="WhileEx2">
+        <java classname="day0318.whileex.WhileEx2" failonerror="true" fork="yes">
+            <classpath refid="run.WhileEx2.classpath"/>
+        </java>
+    </target>
+    <target name="WhileEx3">
+        <java classname="day0318.whileex.WhileEx3" failonerror="true" fork="yes">
+            <classpath refid="run.WhileEx3.classpath"/>
+        </java>
+    </target>
+    <target name="WhileEx4">
+        <java classname="day0318.whileex.WhileEx4" failonerror="true" fork="yes">
+            <classpath refid="run.WhileEx4.classpath"/>
+        </java>
+    </target>
+    <target name="WrapperEx1">
+        <java classname="day0402.langex.wrapper.WrapperEx1" failonerror="true" fork="yes">
+            <classpath refid="run.WrapperEx1.classpath"/>
+        </java>
+    </target>
+    <target name="WrapperEx2">
+        <java classname="day0402.langex.wrapper.WrapperEx2" failonerror="true" fork="yes">
+            <classpath refid="run.WrapperEx2.classpath"/>
+        </java>
+    </target>
+</project>
